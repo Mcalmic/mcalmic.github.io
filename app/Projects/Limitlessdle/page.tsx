@@ -11,7 +11,6 @@ function Blankify(original: string) {
 }
 
 export default function Limitlessdle() {
-    const [resultsText, setResultsText] = useState("");
     const [card, setCard] = useState(cardList[0]);
     const [revealed, setRevealed] = useState(false);
     const [guess, setGuess] = useState("");
@@ -21,9 +20,8 @@ export default function Limitlessdle() {
     function handleStartClick() {
         setStarted(true);
         setRevealed(false);
-        let currCard = cardList[Math.floor(Math.random() * cardList.length)];
+        const currCard = cardList[Math.floor(Math.random() * cardList.length)];
         setCard(currCard);
-        setResultsText(currCard.results);
         setGuess(""); 
         setInput("");
     }

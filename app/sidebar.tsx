@@ -1,7 +1,6 @@
 // components/Sidebar.js
 'use client'
 import { useState } from "react";
-import { fira } from "@/app/fonts"
 import Link from "next/link";
 
 export default function Sidebar() {
@@ -30,7 +29,7 @@ export default function Sidebar() {
             isOpen ? "translate-x-0" : "-translate-x-full"
           }`}   
         >
-          <div className="mt-3 ml-1 p-4 text-2xl">Michael's Website</div>
+          <div className="mt-3 ml-1 p-4 text-2xl">Michael&apos;s Website</div>
           <nav className="flex flex-col p-4 space-y-2">
             <Link href="/" className="p-5 hover:bg-gray-700 duration-300 ease-in-out rounded text-xl">
               Home

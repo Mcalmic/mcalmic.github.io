@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="bg-neutral-950 min-h-screen flex flex-col items-center p-8">
       <Head>
-        <title>Michael's Personal Website</title>
+        <title>Michael&apos;s Personal Website</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -15,13 +15,13 @@ export default function Home() {
       <div className="w-full max-w-screen-md mx-auto px-8 xl:max-w-screen-lg mt-10">
         <header className="mb-8">
           <h1 className="text-4xl sm:text-5xl font-bold text-neutral-200">
-            Hi, I'm <span className="text-violet-400">Michael</span>
+            Hi, I&apos;m <span className="text-violet-400">Michael</span>
           </h1>
         </header>
         <div className = "justify-center">
         <h2 className="text-3xl font-semibold text-neutral-200 mb-4">About Me</h2>
         <p className="text-2xl text-neutral-200">
-          I'm a college student studying Computer Science, Math, and Linguistics. I'm passionate about making good frontend, developing fun games, cooking, the Oxford comma, and teaching. I also play Pokémon Cards pretty well.
+          I&apos;m a college student studying Computer Science, Math, and Linguistics. I&apos;m passionate about making good frontend, developing fun games, cooking, the Oxford comma, and teaching. I also play Pokémon Cards pretty well.
         </p>
         </div>
 
