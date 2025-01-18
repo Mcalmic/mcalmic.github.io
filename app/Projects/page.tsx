@@ -15,6 +15,12 @@ const projects = [
       imageUrl: '/images/none.png',
       link: '/Projects/SwissCalc'
     },
+    {
+      title: 'Rxknephew Lyric Picker',
+      imageUrl: '/images/rxknephew.png',
+      link: '/Projects/LyricRandomizer'
+    },
+
 
   ];
 

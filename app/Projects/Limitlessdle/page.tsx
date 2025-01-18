@@ -1,5 +1,5 @@
 'use client'
-import { cardList } from '@/app/Projects/Limitlessdle/cardList'
+import { cardList } from './cardList'
 import { useState } from 'react';
 
 function Blankify(original: string) {
