@@ -30,7 +30,7 @@ const projects = [
     },
     {
         title: 'Rxknephew Lyric Picker',
-        imageUrl: '/images/none.png',
+        imageUrl: '/images/rxknephew.png',
         link: '/Projects/LyricRandomizer'
     }
 ];

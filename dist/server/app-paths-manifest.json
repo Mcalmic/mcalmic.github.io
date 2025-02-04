@@ -3,5 +3,6 @@
   "/Projects/page": "app/Projects/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/Projects/LyricRandomizer/page": "app/Projects/LyricRandomizer/page.js"
+  "/Projects/LyricRandomizer/page": "app/Projects/LyricRandomizer/page.js",
+  "/Recipes/page": "app/Recipes/page.js"
 }

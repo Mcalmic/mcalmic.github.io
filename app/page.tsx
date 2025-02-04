@@ -2,7 +2,6 @@
 
 import Head from 'next/head';
 
-
 export default function Home() {
   return (
     <div className="bg-neutral-950 min-h-screen flex flex-col items-center p-8">
@@ -24,6 +23,13 @@ export default function Home() {
           I&apos;m a college student studying Computer Science, Math, and Linguistics. I&apos;m passionate about making good frontend, developing fun games, cooking, the Oxford comma, and teaching. I also play Pokémon Cards pretty well.
         </p>
         </div>
+        <div className = "justify-center">
+        <h2 className="text-3xl font-semibold text-neutral-200 mb-4">If you got here from my Resume:</h2>
+        <p className="text-2xl text-neutral-200">
+          My real name is Yubin Zheng and you might see that on job applications, I go by Michael though.
+        </p>
+        </div>
+
 
         <footer className="mt-12 text-gray-500 text-center absolute bottom-10">
           <div className="mt-6 flex justify-center gap-6">
