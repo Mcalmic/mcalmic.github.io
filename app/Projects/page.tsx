@@ -1,6 +1,11 @@
 import Link from 'next/link';
 const projects = [
     {
+      title: 'Pokedrafter',
+      imageUrl: '/images/pokedrafter.png',
+      link: 'https://pokedrafter.vercel.app/'
+    },
+    {
       title: 'Limitlessdle',
       imageUrl: '/images/limitlessdle.png',
       link: '/Projects/Limitlessdle'
@@ -15,11 +20,13 @@ const projects = [
       imageUrl: '/images/none.png',
       link: '/Projects/SwissCalc'
     },
+    /*
     {
       title: 'Rxknephew Lyric Picker',
       imageUrl: '/images/rxknephew.png',
       link: '/Projects/LyricRandomizer'
     },
+    */
 
 
   ];
