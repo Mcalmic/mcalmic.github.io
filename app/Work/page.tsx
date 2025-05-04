@@ -6,7 +6,7 @@ export default function Work() {
                 {/*there's a docx but its ugly and id ont have word :( */}
                 <Link 
                 href="/resume.pdf" 
-                locale={false} 
+                locale="false"
                 rel="noopener noreferrer" 
                 target="_blank"
                 >
