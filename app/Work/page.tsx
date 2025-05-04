@@ -1,13 +1,19 @@
+import Link from 'next/link';
 export default function Work() {
     return (
         <div className="bg-neutral-950 min-h-screen p-8 text-white flex justify-center">
             <div className="fixed top-1/2 right-12">
                 {/*there's a docx but its ugly and id ont have word :( */}
-                <a href="/resume.pdf" download>
-                    <button className="bg-gray-600 hover:bg-gray-400 text-white font-bold p-5 py-2 px-4 rounded duration-300 ease-in-out">
-                        Download .pdf
-                    </button>
-                </a>
+                <Link 
+                href="/resume.pdf" 
+                locale={false} 
+                rel="noopener noreferrer" 
+                target="_blank"
+                >
+                <button className="bg-gray-600 hover:bg-gray-400 text-white font-bold p-5 py-2 px-4 rounded duration-300 ease-in-out">
+                    Download .pdf
+                </button>
+                </Link>
             </div>
             <div className="max-w-3xl w-full">
                 <h1 className="text-3xl font-bold text-center">Michael Zheng</h1>
