@@ -15,7 +15,7 @@ export default function Work() {
                 <p className="mt-2 text-center">
                     El Dorado Hills, California • &nbsp;
                     <a href="mailto:themcalmic@gmail.com" className="underline">themcalmic@gmail.com</a> • &nbsp;
-                    (801)-505-2701 • &nbsp;
+                    {/*(801)-505-2701 • &nbsp;*/}
                     <a href="https://mcalmic.github.io/" className="underline">mcalmic.github.io</a>
                 </p>
                 
