@@ -2,8 +2,8 @@ import Link from 'next/link';
 export default function Work() {
     return (
         <div className="bg-neutral-950 min-h-screen p-8 text-white flex justify-center">
+            {/*
             <div className="fixed top-1/2 right-12">
-                {/*there's a docx but its ugly and id ont have word :( */}
                 <Link 
                 href="/resume.pdf" 
                 locale="false"
@@ -15,6 +15,7 @@ export default function Work() {
                 </button>
                 </Link>
             </div>
+            */}
             <div className="max-w-3xl w-full">
                 <h1 className="text-3xl font-bold text-center">Michael Zheng</h1>
                 <hr/>
