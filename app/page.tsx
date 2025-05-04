@@ -1,10 +1,11 @@
 'use client'
 
 import Head from 'next/head';
+import Projects  from './Projects/page'
 
 export default function Home() {
   return (
-    <div className="bg-neutral-950 min-h-screen flex flex-col items-center p-8">
+    <div className="bg-neutral-950 min-h-screen flex flex-col items-center p-8 overflow-hidden">
       <Head>
         <title>Michael&apos;s Personal Website</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,18 +21,13 @@ export default function Home() {
         <div className = "justify-center">
         <h2 className="text-3xl font-semibold text-neutral-200 mb-4">About Me</h2>
         <p className="text-2xl text-neutral-200">
-          I&apos;m a college student studying Computer Science, Math, and Linguistics. I&apos;m passionate about making good frontend, developing fun games, cooking, the Oxford comma, and teaching. I also play Pokémon Cards pretty well.
+          I&apos;m a college student studying Computer Science, Math, and Linguistics. I&apos;m passionate about making good frontend, developing fun games, and teaching. I also play Pokémon Cards pretty well.
         </p>
         </div>
-        <div className = "justify-center">
-        <h2 className="text-3xl font-semibold text-neutral-200 mb-4">If you got here from my Resume:</h2>
-        <p className="text-2xl text-neutral-200">
-          My real name is Yubin Zheng and you might see that on job applications, I go by Michael though.
-        </p>
-        </div>
+        <Projects/>
 
-
-        <footer className="mt-12 text-gray-500 text-center absolute bottom-10">
+      </div>
+      <footer className="mt-12 text-gray-500 text-center absolute bottom-10 right-10">
           <div className="mt-6 flex justify-center gap-6">
             <a href="https://github.com/mcalmic" target="_blank" rel="noopener noreferrer" className="p-5 bg-gray-500 rounded-full shadow-lg hover:bg-gray-400 transition-all duration-300">
               <img src="/images/github.png" alt="GitHub" className="w-8 h-8 object-contain" />
@@ -43,9 +39,7 @@ export default function Home() {
               <img src="/images/linkedin-transparent.png" alt="LinkedIn" className="w-8 h-8 object-contain" />
             </a>
           </div>
-        </footer>
-
-      </div>
+      </footer>
     </div>
   );
 }

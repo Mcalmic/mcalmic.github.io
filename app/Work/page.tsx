@@ -3,7 +3,7 @@ export default function Work() {
         <div className="bg-neutral-950 min-h-screen p-8 text-white flex justify-center">
             <div className="fixed top-1/2 right-12">
                 {/*there's a docx but its ugly and id ont have word :( */}
-                <a href="/images/resume.pdf" download>
+                <a href="/resume.pdf" download>
                     <button className="bg-gray-600 hover:bg-gray-400 text-white font-bold p-5 py-2 px-4 rounded duration-300 ease-in-out">
                         Download .pdf
                     </button>

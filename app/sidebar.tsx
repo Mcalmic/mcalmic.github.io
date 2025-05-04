@@ -40,9 +40,11 @@ export default function Sidebar() {
             <Link href="/Projects" className="p-5 hover:bg-gray-700 duration-300 ease-in-out rounded text-xl">
               Projects
             </Link>
+            {/*
             <Link href="/Recipes" className="p-5 hover:bg-gray-700 duration-300 ease-in-out rounded text-xl">
               Recipes
             </Link>
+            */}
           </nav>
         </div>
       </div>

@@ -20,7 +20,8 @@ export default function RootLayout({
       >
         <Sidebar/>
         {children}
-        <p className="absolute bottom-0 right-0 text-gray-400 text-sm text-center">&copy; {new Date().getFullYear()} Michael Zheng. I guess this is copyrighted.</p>
+        {//<p className="absolute bottom-0 right-0 text-gray-400 text-sm text-center">&copy; {new Date().getFullYear()} Michael Zheng. I guess this is copyrighted.</p>
+        }
       </body>
     </html>
   );
