@@ -18,8 +18,14 @@ export default function RootLayout({
       <body
         className={`${fira.className} antialiased`}
       >
-        <Sidebar/>
-        {children}
+        <div className="flex justify-center min-h-screen">
+          <div className="flex max-w-7xl w-full gap-12 px-8">
+            <Sidebar/>
+            <div className="flex-1 max-w-4xl">
+              {children}
+            </div>
+          </div>
+        </div>
         {//<p className="absolute bottom-0 right-0 text-gray-400 text-sm text-center">&copy; {new Date().getFullYear()} Michael Zheng. I guess this is copyrighted.</p>
         }
       </body>
