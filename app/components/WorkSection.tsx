@@ -9,15 +9,14 @@ export function WorkSection() {
                 </h1>   
 
                 <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mt-12">
-                    <Link
-                        href="/resume.pdf"
-                        locale={false} 
+                    <a
+                        href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/resume.pdf`}
+                        download
                         rel="noopener noreferrer"
-                        target="_blank"
                         className="bg-violet-400 hover:bg-violet-500 text-white font-bold py-4 px-8 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl text-lg"
                     >
                         Download Resume (PDF)
-                    </Link>
+                    </a>
 
                     <a
                         href="https://linkedin.com/in/"
