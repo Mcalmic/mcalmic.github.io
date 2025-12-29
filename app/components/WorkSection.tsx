@@ -11,7 +11,7 @@ export function WorkSection() {
                 <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mt-12">
                     <Link
                         href="/resume.pdf"
-                        locale="false"
+                        locale={false} 
                         rel="noopener noreferrer"
                         target="_blank"
                         className="bg-violet-400 hover:bg-violet-500 text-white font-bold py-4 px-8 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl text-lg"

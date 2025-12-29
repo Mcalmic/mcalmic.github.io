@@ -1,9 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/Work/page": "app/Work/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/Projects/Limitlessdle/page": "app/Projects/Limitlessdle/page.js",
-  "/Projects/SwissCalc/page": "app/Projects/SwissCalc/page.js",
-  "/icon.jpg/route": "app/icon.jpg/route.js"
-}
