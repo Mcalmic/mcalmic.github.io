@@ -4,7 +4,6 @@
 const nextConfig = {
   output: 'export',
   distDir: 'dist',
-  basePath: '/mcalmic.github.io', 
   images: {
     unoptimized: true,
   },

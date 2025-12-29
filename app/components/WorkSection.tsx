@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 export function WorkSection() {
     return (
         <section id="work" className="scroll-section min-h-screen bg-neutral-950 p-8 text-white flex items-center justify-center overflow-y-auto">
@@ -10,7 +8,7 @@ export function WorkSection() {
 
                 <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mt-12">
                     <a
-                        href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/resume.pdf`}
+                        href="/resume.pdf"
                         download
                         rel="noopener noreferrer"
                         className="bg-violet-400 hover:bg-violet-500 text-white font-bold py-4 px-8 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl text-lg"
