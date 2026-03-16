@@ -23,7 +23,7 @@ export function WorkSection() {
                         className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-4 px-8 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl text-lg flex items-center gap-2"
                     >
                         <img src="/images/linkedin-transparent.png" alt="LinkedIn" className="w-6 h-6 object-contain" />
-                        View LinkedIn Profile
+                        Connect with me!
                     </a>
                 </div>
             </div>
